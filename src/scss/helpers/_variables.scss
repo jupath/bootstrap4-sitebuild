@@ -1,0 +1,33 @@
+// Colors
+$blue: #80cdde;
+$dark-gray: #333333;
+$light-gray: #a8a6a6;
+$very-light-gray: #e5e5e5;
+$red: #8d1e16;
+
+$theme-colors: (
+  primary: $blue
+);
+
+// Sizes
+$xs-size: 0.9rem;
+$s-size: 1rem;
+$m-size: 1.2rem;
+$l-size: 1.8rem;
+$xl-size: 3.2rem;
+
+// Font
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+// Spacers
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: ($spacer * 0.9),
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 9),
+  7: ($spacer * 20)
+);

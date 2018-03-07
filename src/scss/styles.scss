@@ -1,0 +1,23 @@
+/*!
+Theme Name: profiadatvedelem
+Author: Attila Talias
+Description: profiadatvedelem.hu theme
+Version: 1.0.0
+Text Domain: profiadatvedelem
+*/
+@import "./helpers/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./components/buttons";
+@import "./components/forms";
+@import "./layout/general";
+@import "./layout/_singles.scss";
+@import "./layout/nav";
+@import "./layout/hero";
+@import "./layout/need";
+@import "./layout/about";
+@import "./layout/testimonials";
+@import "./layout/packages";
+@import "./layout/education";
+@import "./layout/book";
+@import "./layout/blog";
+@import "./layout/footer";

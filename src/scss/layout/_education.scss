@@ -1,0 +1,27 @@
+.education__bgimage {
+  background-image: url('../../images/education-bg.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  height: 445px;
+  width: 100%;
+  @include media-breakpoint-up(sm) {
+    background-position: top center;
+  }
+}
+
+.education__cerificate__image {
+  max-width: 100%;
+  height: auto;
+  @include media-breakpoint-up(lg) {
+    margin-top: -250px;
+    height: 200px;
+    width: auto;
+  }
+}
+
+.education__trainings {
+  border-bottom: 1px solid $light-gray;
+  &:last-child {
+    border-bottom: none;
+  }
+}

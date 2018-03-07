@@ -1,0 +1,34 @@
+.btn {
+  border-radius: 0;
+  color: white!important;
+  font-size: $s-size;
+  text-transform: uppercase;
+  @include media-breakpoint-up(md) {
+    font-size: $m-size;
+  }
+}
+
+.btn--blue {
+  background-color: theme-color("primary");
+  &:hover {
+    background-color: darken(theme-color("primary"), 10%);
+  }
+}
+
+.btn--gray {
+  background-color: $dark-gray;
+  &:hover {
+    background-color: darken($dark-gray, 10%);
+  }
+}
+
+.btn--lightgray {
+  background-color: $light-gray;
+  &:hover {
+    background-color: darken($light-gray, 10%);
+  }
+}
+
+.btn--graycolor {
+  color: $dark-gray!important;
+}

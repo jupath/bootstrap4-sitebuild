@@ -1,0 +1,25 @@
+.article-meta {
+  min-height: 130px;
+}
+
+.article-meta__image {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-right: $xs-size;
+}
+
+.articles {
+  article {
+    border-bottom: 1px solid $very-light-gray;
+  }
+}
+
+.sidebar-widget {
+  padding-bottom: 30px;
+  line-height: 110%;
+}
+
+.sidebar-widget__education {
+  border-bottom: 1px solid $very-light-gray;
+}

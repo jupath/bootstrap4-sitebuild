@@ -1,0 +1,32 @@
+.form-check-label {
+  line-height: 100%;
+}
+
+input,
+textarea {
+  border-radius: 0!important;
+}
+
+textarea {
+  border: 1px $light-gray solid!important;
+  font-size: $m-size!important;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'] {
+  @extend textarea;
+  height: 40px;
+}
+
+form {
+  line-height: 110%;
+}
+
+form > .row > .col-sm-5 {
+  padding-bottom: 10px;
+}
+
+.form__radio {
+  min-height: 40px;
+}

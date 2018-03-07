@@ -1,0 +1,33 @@
+#hero {
+  background: url('../../images/hero-bg1.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.hero__badge {
+  margin-top: -270px;
+}
+
+.site-branding {
+  background: rgba(theme-color("primary"), 0.65);
+  @include media-breakpoint-up(sm) {
+    background: rgba(theme-color("primary"), 0.8);
+  }
+}
+
+.site-branding__lead {
+  color: $dark-gray;
+  font-size: $m-size;
+  @include media-breakpoint-up(lg) {
+    font-size: $l-size;
+  }
+}
+
+h1 {
+  color: $dark-gray;
+  font-size: $l-size;
+  font-weight: 700;
+  text-transform: uppercase;
+  @include media-breakpoint-up(lg) {
+    font-size: $xl-size;
+  }
+}

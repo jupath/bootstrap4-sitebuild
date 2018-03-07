@@ -1,0 +1,15 @@
+#book {
+  background-color: $light-gray;
+  color: white;
+}
+
+.book--coming {
+  @include media-breakpoint-up(md) {
+    background: url('../../images/book-coming.png') left top no-repeat;
+  }
+}
+
+.book__mockup {
+  height: auto;
+  max-width: 100%;
+}
