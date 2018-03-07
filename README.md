@@ -1,4 +1,4 @@
-## Sitebuild with Bootstrap 4, SASS and Gulp
+## Sitebuild with Bootstrap 4, SASS and Gulp from psd design
 
 ### Installation
 ```bash
